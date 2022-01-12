@@ -7,7 +7,9 @@
 <br />@media screen and (max-width: 480px) {
 <br />      }
 
-follow the folder structure below once u av downloaded the images.zip from d cloud extract and place dem in d format below <br />
+follow the folder structure below once u av downloaded the images.zip from d cloud extract and place dem in d format below 
+<br />
+
 |-
 <br />|- bg/
 <br />|- css/

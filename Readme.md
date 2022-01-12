@@ -1,14 +1,13 @@
 -Screen Sizes
-    sm: '640px',
-    md: '768px',
-    lg: '1024px',
-    xl: '1280px',
-    2xl: '1536px',
-@media screen and (max-width: 480px) {
-      }
+<br />    sm: '640px',
+<br />    md: '768px',
+<br />    lg: '1024px',
+<br />    xl: '1280px',
+<br />    2xl: '1536px',
+<br />@media screen and (max-width: 480px) {
+<br />      }
 
-use buttons and cards as example
-
+follow the folder structure below once u av downloaded the images.zip from d cloud extract and place dem in d format below <br />
 |-
 <br />|- bg/
 <br />|- css/

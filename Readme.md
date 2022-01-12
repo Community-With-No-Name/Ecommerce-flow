@@ -10,21 +10,21 @@
 use buttons and cards as example
 
 |-
-|- bg/
-|- css/
-|- fonts/
-|- lessonA.html
-|- script/
-|- cart.html
-|- dash.css
-|- men/
-|- shoes/
-|- webfonts/
-|- cosmetics/
-|- dash.html
-|- index.html
-|- Readme.md
-|- store/
-|- women/
-|-
+<br />|- bg/
+<br />|- css/
+<br />|- fonts/
+<br />|- lessonA.html
+<br />|- script/
+<br />|- cart.html
+<br />|- dash.css
+<br />|- men/
+<br />|- shoes/
+<br />|- webfonts/
+<br />|- cosmetics/
+<br />|- dash.html
+<br />|- index.html
+<br />|- Readme.md
+<br />|- store/
+<br />|- women/
+<br />|-
 

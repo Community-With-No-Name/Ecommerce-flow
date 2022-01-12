@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphin - Men Store</title>
+    <link rel="stylesheet" href="../../css/utility.css">
+    <link rel="stylesheet" href="../../css/nav.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/product.css">
+    <link rel="stylesheet" href="../../css/font.css">
+    <link rel="stylesheet" href="../../css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <nav class="nav">
+            <div class="flex justify-evenly align-center">
+                <a href="/index.html">Home</a>
+                <a href=""></a>
+            </div>
+            <div class="flex justify-evenly align-center">
+                <a class="nav-brand">
+                    <i class="fa fa-shopping-bag"></i>
+                    Seraphin Store
+                </a>
+            </div>
+            <div class="flex justify-evenly nav-right align-center">
+                <i class="far fa-user"></i>
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-basket"></i>
+                    <sup id="cart-value">0</sup>
+                </a>
+            </div>
+        </nav>
+    </div>
+    <div class="flex flex-col justify-center w-full h-screen align-center">
+        <div class="product">
+            <div id="img">
+                <!-- <img class="rounded product-image" src="../../shoes/i10.jpg" /> -->
+            </div>
+            <div class="product-right">
+                <div class="w-full product-detail">
+                    <h1 id="name">
+                        <!-- Product name -->
+                    </h1>
+                    <div class="flex justify-between value">
+                        <button id="minus">-</button>
+                        <input type="number" name="" id="amount" value="1">
+                        <button id="add">+</button>
+                    </div>
+                    <p>$9.99</p>
+                </div>
+                <div class="product-button">
+                    <button class="transition add scale" id="PushToCart">
+                        <i class="far fa-shopping-basket"></i> Add To Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../script/product.js"></script>
+    <script src="../../script/menStore.js"></script>
+<script src="./script/cartLength.js"></script>
+</body>
+</html>

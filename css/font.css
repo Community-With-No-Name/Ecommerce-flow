@@ -1,0 +1,14 @@
+@font-face {
+    font-family: Dosis;
+    src: url(../fonts/Dosis-Regular.ttf);
+}
+@font-face {
+    font-family: Script;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+* {
+    font-family: "Dosis", sans-serif;
+}
+.script {
+    font-family: "Script", sans-serif;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphin - Men Store</title>
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/utility.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+</head>
+<body>
+    <header id="header" >
+        <nav class="nav">
+            <div class="flex justify-evenly align-center">
+                <a href="/index.html">Home</a>
+                <a href=""></a>
+            </div>
+            <div class="flex justify-evenly align-center">
+                <a class="nav-brand" href="/index.html">
+                    <i class="fa fa-shopping-bag"></i>
+                    Seraphin Store
+                </a>
+            </div>
+            <div class="flex justify-evenly nav-right align-center">
+                <i class="far fa-user"></i>
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-basket"></i>
+                    <sup id="cart-value">0</sup>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div id="main">
+        <div class="flex justify-evenly tabs">
+            <div class="flex justify-center tab"><button onclick="location.href='/store/shoes.html'" class="transition shadow tab-button scale"><i class="far fa-store-alt"></i> Shoes</button></div>
+            <div class="flex justify-center tab"><button onclick="location.href='/store/male.html'" class="transition shadow tab-button-active scale"><i class="far fa-male"></i> Male</button></div>
+            <div class="flex justify-center tab"><button onclick="location.href='/store/female.html'" class="transition shadow tab-button scale"><i class="far fa-female"></i> Female</button></div>
+            <div class="flex justify-center tab"><button onclick="location.href='/store/cosmetics.html'" class="transition shadow tab-button scale"><i class="far fa-shopping-bag"></i> Cosmetics</button></div>
+        </div>
+        <h1 class="text-center">
+            All Men Products
+        </h1>
+        <div class="mx-auto products-container" id="products">
+            <div class="flex flex-col product">
+                    <img class="transition scale" src="https://images.unsplash.com/photo-1555982105-d25af4182e4e?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=400&amp;h=400&amp;q=80">
+                    <div class="flex justify-between product-name align-center">
+                        <p class="">Product Name</p>
+                        <i class="my-auto transition far fa-shopping-basket svg scale"></i>
+                    </div>
+                    <p class="product-price">£9.99</p>
+            </div>
+        </div>
+    </div>
+    <script src="../script/menStore.js"></script>
+<script src="./script/cartLength.js"></script>
+</body>
+</html>

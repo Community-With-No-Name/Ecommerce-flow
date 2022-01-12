@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphin Store</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <!-- <link rel="stylesheet" href="./css/main.css"> -->
+    <link rel="stylesheet" href="./css/utility.css">
+    <!-- <link rel="stylesheet" href="./css/footer.css"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+</head>
+<body>
+    <header id="header" >
+        <nav class="nav">
+            <div class="flex justify-evenly align-center">
+                <a href="/index.html">Home</a>
+                <a href=""></a>
+            </div>
+            <div class="flex justify-evenly align-center">
+                <a class="nav-brand" href="/index.html">
+                    <i class="fa fa-shopping-bag"></i>
+                    Seraphin Store
+                </a>
+            </div>
+            <div class="flex justify-evenly nav-right align-center">
+                <i class="far fa-user"></i>
+                <a href="/cart.html">
+                    <i class="fa fa-shopping-basket"></i>
+                    <sup id="cart-value">0</sup>
+                </a>
+            </div>
+        </nav>
+        <section class="transition shadow hero scale" id="hero">
+            <div class="hero-child">
+                <p>
+                    Your Home Of
+                    <br>
+                    <span id="hero-text"></span>
+                </p>
+            </div>
+            
+        </section>
+    </header>
+    <main id="main">
+        <h1 class="text-center">Our Categories</h1>
+        <div class="transition shadow cursor-pointer shoes scale" onclick="location.href='/store/shoes.html'">
+            <div class="bg-opacity hero-child">
+                <p>View All Shoe Store <i class="far fa-store-alt"></i></p>
+            </div>
+        </div>
+        <section class="categories">
+            <div class="transition shadow cursor-pointer scale male" onclick="location.href='/store/male.html'">
+                <div class="bg-opacity hero-child">
+                <p>View All Male Wears
+                    <i class="far fa-male"></i>
+                </p> 
+            </div>
+        </div>
+        <div class="transition shadow cursor-pointer scale female" onclick="location.href='/store/female.html'">
+            <div class="bg-opacity hero-child">
+                    <p>View All Female Wears <i class="far fa-female"></i></p>
+                </div>
+            </div>
+        </section>
+        <div class="transition shadow cursor-pointer scale cosmetics" onclick="location.href='/store/cosmetics.html'">
+            <div class="bg-opacity hero-child">
+                    <p>View All Beauty Products <i class="far fa-shopping-bag"></i></p>
+                </div>
+            </div>
+    </main>
+    <footer></footer>
+    <script src="./script/randomImage.js"></script>
+<script src="./script/cartLength.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+  }
+  .nav-right {
+    width: 100px;
+  }
+  .nav-brand {
+    font-weight: bolder;
+    font-size: 28px;
+  }
+  #cart-value {
+    border-radius: 100%;
+    background: indigo;
+    padding: 1px 5px;
+    margin-left: -5px;
+    color: #fff;
+    font-size: 10px;
+  }

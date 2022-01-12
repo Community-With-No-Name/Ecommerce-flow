@@ -1,0 +1,34 @@
+
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-item {
+    margin: 20px 5px;
+}
+.italic {
+    font-style: italic;
+}
+.bg-grey {
+    background-color: grey;
+}
+.text-white {
+    color: white;
+}
+.text-black {
+    color: black;
+}
+@media screen and (min-width: 768px) {
+    .flex-col {
+        flex-direction: row;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .flex-col {
+        flex-direction: row-reverse;
+    }
+}

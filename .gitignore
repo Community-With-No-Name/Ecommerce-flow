@@ -1,0 +1,9 @@
+*.ts
+tsconfig.json
+/shoes
+/men
+/women
+/bg
+/cosmetics
+.env
+images.zip

@@ -1,0 +1,37 @@
+.table {
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    border: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.table-header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    border: 1px solid gray;
+    /* border: 0px; */
+}
+.table-header div {
+    font-weight: bolder;
+}
+.table-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
+/* .table {
+    height: 
+} */
+.hidden {
+    display: none !important;
+}
+@media screen and (min-width: 1024px) {
+    .hidden {
+        display: flex !important;
+    }
+}
